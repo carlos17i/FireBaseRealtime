@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.FireBaseRealtime" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/onPrimaryColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/onSecondaryColor</item>
+        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDarkColor</item>
+        <item name="android:navigationBarColor">@color/primaryColor</item>
+        <item name="android:windowBackground">@color/windowBackgroundColor</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:colorAccent">@color/accentColor</item>
+        <item name="android:colorControlHighlight">@color/highlightColor</item>
+        <item name="android:colorControlActivated">@color/activatedColor</item>
+        <item name="android:colorButtonNormal">@color/buttonColor</item>
+        <item name="android:colorEdgeEffect">@color/edgeEffectColor</item>
+    </style>
+
+    <style name="Theme.FireBaseRealtime" parent="Base.Theme.FireBaseRealtime" />
+</resources>

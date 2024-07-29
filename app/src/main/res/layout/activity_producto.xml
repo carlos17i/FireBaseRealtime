@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRODUCTO"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/textViewCodigoLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrese código"
+            android:textSize="16sp"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewCodigoLabel"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:id="@+id/textViewNombreLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrese nombre producto"
+            android:textSize="16sp"
+            android:layout_below="@id/editTextCodigo"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewNombreLabel"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:id="@+id/textViewStockLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrese stock"
+            android:textSize="16sp"
+            android:layout_below="@id/editTextNombre"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_below="@id/textViewStockLabel"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:id="@+id/textViewPrecioCostoLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrese precio costo"
+            android:textSize="16sp"
+            android:layout_below="@id/editTextStock"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextPrecioCosto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/textViewPrecioCostoLabel"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:id="@+id/textViewPrecioVentaLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrese precio venta"
+            android:textSize="16sp"
+            android:layout_below="@id/editTextPrecioCosto"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextPrecioVenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/textViewPrecioVentaLabel"
+            android:layout_margin="16dp"/>
+
+        <LinearLayout
+            android:id="@+id/firstButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/editTextPrecioVenta"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="24dp">
+
+            <Button
+                android:id="@+id/buttonGuardar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#2196F3"
+                android:text="Guardar" />
+
+            <Button
+                android:id="@+id/buttonActualizar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2196F3"
+                android:text="Actualizar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secondButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/firstButtonLayout"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/buttonBuscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#2196F3"
+                android:text="Buscar" />
+
+            <Button
+                android:id="@+id/buttonBorrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2196F3"
+                android:text="Borrar" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonRegresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regresar"
+            android:layout_below="@id/secondButtonLayout"
+            android:layout_marginTop="24dp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</ScrollView>

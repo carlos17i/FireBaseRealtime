@@ -1,0 +1,15 @@
+<resources>
+    <color name="primaryColor">#FF5722</color> <!-- Naranja intenso -->
+    <color name="primaryDarkColor">#E64A19</color> <!-- Naranja oscuro -->
+    <color name="onPrimaryColor">#FFFFFF</color> <!-- Blanco -->
+    <color name="secondaryColor">#4CAF50</color> <!-- Verde -->
+    <color name="secondaryDarkColor">#388E3C</color> <!-- Verde oscuro -->
+    <color name="onSecondaryColor">#FFFFFF</color> <!-- Blanco -->
+    <color name="windowBackgroundColor">#F5F5F5</color> <!-- Gris claro -->
+    <color name="textColor">#212121</color> <!-- Negro -->
+    <color name="accentColor">#FFC107</color> <!-- Amarillo -->
+    <color name="highlightColor">#FFEB3B</color> <!-- Amarillo claro -->
+    <color name="activatedColor">#FF5722</color> <!-- Naranja intenso -->
+    <color name="buttonColor">#FF5722</color> <!-- Naranja intenso -->
+    <color name="edgeEffectColor">#4CAF50</color> <!-- Verde -->
+</resources>
